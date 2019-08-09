@@ -92,6 +92,7 @@ body {
             float: left;
             height: 42px;
             margin-top: 15px;
+            color: #000;
             margin-bottom: 15px;
             background: #ffffff;
             border: 1px solid rgba(116, 130, 150, 0.2);
@@ -115,6 +116,12 @@ body {
             left: -60px;
             color: rgba(45, 58, 64, 0.3);
             font-size: 14px; }
+          body main .wrap-form .form form .error_form {
+            background: #f0175c;
+            border-radius: 0px 0px 4px 4px;
+            width: 100%;
+            font-size: 10px;
+            color: #fff; }
           body main .wrap-form .form form .button-free {
             background: #14e298;
             border-radius: 3px;
