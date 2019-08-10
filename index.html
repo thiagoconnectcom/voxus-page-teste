@@ -6,7 +6,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
       name="viewport"
     />
-    <title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
+    <title>VOXUS</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
@@ -55,72 +55,94 @@
       <div class="wrap-form">
         <div class="form">
           <form>
-            <input
-              id="name"
-              class="input"
-              type="text"
-              placeholder=""
-              required=""
-            />
-            <span class="error_form" id="name_error_message"></span>
-            <label>Nome completo</label>
+            <div class="form-group">
+              <input
+                id="name"
+                class="input"
+                type="text"
+                placeholder=""
+                required=""
+              />
 
-            <input
-              id="email"
-              class="input"
-              type="email"
-              placeholder=""
-              required=""
-            />
-            <label>Endereço de e-mail</label>
-            <span class="error_form" id="endereco_error_message"></span>
+              <label>Nome completo</label>
+              <span class="error_form" id="name_error_message"></span>
+            </div>
 
-            <select id="select">
-              <option> </option>
-            </select>
-            <input id="input" type="text" placeholder="Telefone" required="" />
-            <span class="error_form" id="telefone_error_message"></span>
+            <div class="form-group">
+              <input
+                id="email"
+                class="input"
+                type="email"
+                placeholder=""
+                required=""
+              />
+              <label>Endereço de e-mail</label>
+              <span class="error_form" id="endereco_error_message"></span>
+            </div>
 
-            <input
-              id="empresa"
-              class="input"
-              type="text "
-              placeholder=""
-              required=""
-            />
-            <label>Nome da empresa</label>
-            <span class="error_form" id="name_empresa_error_message"></span>
+            <div class="form-group" style="margin-top: 15px;">
+              <select id="select">
+                <option> </option>
+              </select>
+              <input
+                id="input"
+                type="text"
+                placeholder="Telefone"
+                required=""
+                style="margin-bottom: 19px"
+              />
+              <span class="error_form" id="telefone_error_message"></span>
+            </div>
 
-            <input
-              id="url"
-              class="input"
-              type="text "
-              placeholder=""
-              required=""
-            />
-            <label>URL do site</label>
-            <span class="error_form" id="url_error_message"></span>
+            <div class="form-group">
+              <input
+                id="empresa"
+                class="input"
+                type="text "
+                placeholder=""
+                required=""
+              />
+              <label>Nome da empresa</label>
+              <span class="error_form" id="name_empresa_error_message"></span>
+            </div>
 
-            <select class="input">
-              <option value="">Verba mensal em mídia</option>
-              <option value="<= R$5.000 "><= R$5.000</option>
-              <option value=">= R$5.001 e <= R$30.000 "
-                >>= R$5.001 e <= R$30.000
-              </option>
-              <option value=">= R$30.001 e <= R$100.000"
-                >>= R$30.001 e <= R$100.000</option
+            <div class="form-group">
+              <input
+                id="url"
+                class="input"
+                type="text "
+                placeholder=""
+                required=""
+              />
+              <label>URL do site</label>
+              <span class="error_form" id="url_error_message"></span>
+            </div>
+
+            <div class="form-group">
+              <select class="input">
+                <option value="">Verba mensal em mídia</option>
+                <option value="<= R$5.000 "><= R$5.000</option>
+                <option value=">= R$5.001 e <= R$30.000 "
+                  >>= R$5.001 e <= R$30.000
+                </option>
+                <option value=">= R$30.001 e <= R$100.000"
+                  >>= R$30.001 e <= R$100.000</option
+                >
+                <option value=">= R$100.001 e <= R$500.000"
+                  >>= R$100.001 e <= R$500.000</option
+                >
+                <option value=">= R$500.001">>= R$500.001</option>
+                <option value="Não se aplica">Não se aplica</option>
+              </select>
+            </div>
+
+            <div class="center">
+              <button class="button-free">Experimentar gratuitamente</button>
+              <button class="button-obrigado">Obrigado</button>
+              <span class="descriptioin-button"
+                >Entraremos em contato em até 24hs úteis</span
               >
-              <option value=">= R$100.001 e <= R$500.000"
-                >>= R$100.001 e <= R$500.000</option
-              >
-              <option value=">= R$500.001">>= R$500.001</option>
-              <option value="Não se aplica">Não se aplica</option>
-            </select>
-            <button class="button-free">Experimentar gratuitamente</button>
-            <button class="button-obrigado">Obrigado</button>
-            <span class="descriptioin-button"
-              >Entraremos em contato em até 24hs úteis</span
-            >
+            </div>
           </form>
         </div>
       </div>
