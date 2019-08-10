@@ -27,6 +27,9 @@ $(function() {
   $("#email").focusout(function() {
     check_email();
   });
+  $("#empresa").focusout(function() {
+    empresaInput();
+  });
   $("#input").focusout(function() {
     checkInput();
   });
@@ -44,6 +47,18 @@ $(function() {
       error_username = true;
     } else {
       $("#name_error_message").hide();
+    }
+  }
+
+  function empresaInput() {
+    var name_empresa_length = $("#empresa").val().length;
+
+    if (name_empresa_length <= 0) {
+      $("#name_empresa_error_message").html("Este campo é obrigatório!");
+      $("#name_empresa_error_message").show();
+      error_password = true;
+    } else {
+      $("#name_empresa_error_message").hide();
     }
   }
 
