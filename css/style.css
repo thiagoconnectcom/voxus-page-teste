@@ -53,7 +53,7 @@ body {
     body main .wrap-form {
       background-color: #fff;
       margin-top: 57px; }
-      @media (min-width: 1200px) {
+      @media (min-width: 768px) {
         body main .wrap-form {
           width: 620px;
           margin: auto;
